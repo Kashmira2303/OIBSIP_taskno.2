@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-contaner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 700px; */
+    border: 2px solid black;
+    background-color: rgb(20, 20, 20);
+    color: aliceblue;
+}
+.name{
+    margin-top: 12px;
+    color: aliceblue;
+    text-shadow: 1.2px .2px gold;
+}
+.photo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    
+}
+.photo{
+    margin-top: 4px;
+   background: transparent;
+}
+.quote{
+    margin-top: 12px;
+}
+.quote img{
+    width:500px;
+    filter: saturate(100%);
+    border-radius: 12px;
+    border: 3px solid gold;
+    box-shadow: 5px 5px rgb(82, 73, 73);
+    filter: opacity(80%);
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(198, 197, 197);
+    border-radius: 23px;
+
+    background-color: rgba(44, 80, 83, 0.689);
+    box-shadow: 5px 5px rgba(137, 125, 125, 0.615);
+    width: 500px;
+    margin: 12px 12px;
+    padding: 14px 14px;
+}
+.bio h2{
+    text-align: center;
+    font-size: 2.3rem;
+    color: rgb(223, 243, 40);
+}
+.bio p{
+    margin-top: 10px;
+    color: rgb(182, 183, 195);
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.bio button{
+    margin-top: 14px;
+ border-style: none;
+    width: 95px;
+
+    background: transparent;
+}
+.bio button a{
+    font-size: 1.1rem;
+    color: rgb(236, 14, 14);
+}
+.bio button a:hover{
+    font-size: 1.2rem;
+    color: red;
+}
+footer{
+    position: relative;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+}
